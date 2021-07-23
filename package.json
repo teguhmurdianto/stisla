@@ -7,6 +7,7 @@
   "author": "Stisla Team <nauvalazhar2@gmail.com> (https://getstisla.com)",
   "license": "MIT",
   "dependencies": {
+    "@aacassandra/jquery_upload_preview": "0.0.1",
     "@fortawesome/fontawesome-free": "^5.7.2",
     "bootstrap": "^4.2.1",
     "bootstrap-colorpicker": "^3.0.3",
@@ -28,18 +29,17 @@
     "ionicons201": "1.0.0",
     "izitoast": "^1.4.0",
     "jquery": "^3.3.1",
-    "jquery-pwstrength": "https://github.com/matoilic/jquery.pwstrength",
     "jquery-sparkline": "^2.4.0",
     "jquery-ui-dist": "^1.12.1",
     "jquery.nicescroll": "^3.7.6",
-    "jquery_upload_preview": "https://github.com/opoloo/jquery_upload_preview",
-    "jqvmap": "https://github.com/10bestdesign/jqvmap",
+    "jqvmap": "^1.5.1",
     "moment": "^2.24.0",
     "nicescroll": "^3.7.4",
     "owl.carousel": "^2.3.4",
     "perfect-scrollbar": "^1.4.0",
     "popper.js": "^1.14.7",
     "prismjs": "^1.15.0",
+    "pwstrength-bootstrap": "^3.1.0",
     "select2": "^4.0.6-rc.1",
     "selectric": "^1.13.0",
     "simpleweather": "^3.1.0",
@@ -69,8 +69,8 @@
     "nunjucks": "^3.1.7"
   },
   "scripts": {
-    "stisla-start": "yarn install --production=false",
-    "stisla-dev": "yarn install --prod",
+    "stisla-start": "npm install --production=false",
+    "stisla-dev": "npm install --prod",
     "dist": "gulp dist",
     "dev": "gulp"
   }
